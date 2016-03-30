@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,53 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YF-DR-X0f">
+                                <rect key="frame" x="20" y="79" width="560" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="h2V-si-dq1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2X5-AP-CmU">
+                                <rect key="frame" x="0.0" y="498" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Select Date"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="94j-ZN-jy4"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="srD-kc-ezN">
+                                <rect key="frame" x="140" y="192" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="480995387.05088902">
+                                    <!--2016-03-30 01:49:47 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9YF-DR-X0f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8ut-Oz-jzd"/>
+                            <constraint firstItem="2X5-AP-CmU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Av8-ZJ-B5E"/>
+                            <constraint firstItem="9YF-DR-X0f" firstAttribute="centerX" secondItem="srD-kc-ezN" secondAttribute="centerX" id="Bpd-qq-9hn"/>
+                            <constraint firstItem="srD-kc-ezN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Eca-G6-NKA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2X5-AP-CmU" secondAttribute="bottom" constant="72" id="JxI-2T-gjl"/>
+                            <constraint firstItem="2X5-AP-CmU" firstAttribute="centerX" secondItem="srD-kc-ezN" secondAttribute="centerX" id="PAK-gB-r10"/>
+                            <constraint firstItem="srD-kc-ezN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T4s-py-4QS"/>
+                            <constraint firstItem="srD-kc-ezN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="axL-K0-1Fu"/>
+                            <constraint firstItem="9YF-DR-X0f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="jof-TU-azW"/>
+                            <constraint firstItem="srD-kc-ezN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="p6b-zx-bgD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dateText" destination="9YF-DR-X0f" id="ZN3-kO-FYX"/>
+                        <outlet property="myDatePicker" destination="srD-kc-ezN" id="sWj-qK-gEa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="190" y="310"/>
         </scene>
     </scenes>
 </document>
