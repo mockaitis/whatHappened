@@ -14,6 +14,7 @@
 		461A56941C7FD09200659322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461A56921C7FD09200659322 /* LaunchScreen.storyboard */; };
 		461A569F1C7FD09200659322 /* WhatHappenedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A569E1C7FD09200659322 /* WhatHappenedTests.swift */; };
 		461A56AA1C7FD09200659322 /* WhatHappenedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A56A91C7FD09200659322 /* WhatHappenedUITests.swift */; };
+		46E26B1B1CAC856D004FBEB9 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E26B1A1CAC856D004FBEB9 /* ResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		461A56A51C7FD09200659322 /* WhatHappenedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatHappenedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461A56A91C7FD09200659322 /* WhatHappenedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatHappenedUITests.swift; sourceTree = "<group>"; };
 		461A56AB1C7FD09200659322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E26B1A1CAC856D004FBEB9 /* ResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				461A56891C7FD09200659322 /* AppDelegate.swift */,
 				461A568B1C7FD09200659322 /* ViewController.swift */,
 				461A568D1C7FD09200659322 /* Main.storyboard */,
+				46E26B1A1CAC856D004FBEB9 /* ResultsController.swift */,
 				461A56901C7FD09200659322 /* Assets.xcassets */,
 				461A56921C7FD09200659322 /* LaunchScreen.storyboard */,
 				461A56951C7FD09200659322 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				461A568C1C7FD09200659322 /* ViewController.swift in Sources */,
 				461A568A1C7FD09200659322 /* AppDelegate.swift in Sources */,
+				46E26B1B1CAC856D004FBEB9 /* ResultsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				461A56B01C7FD09200659322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461A56B11C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappenedTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				461A56B31C7FD09200659322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461A56B41C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappenedUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				461A56B61C7FD09200659322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

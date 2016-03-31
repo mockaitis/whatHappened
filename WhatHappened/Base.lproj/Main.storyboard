@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="46" id="h2V-si-dq1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
-                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2X5-AP-CmU">
@@ -33,6 +33,7 @@
                                 <state key="normal" title="Select Date"/>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="94j-ZN-jy4"/>
+                                    <segue destination="bNB-bT-mVf" kind="show" identifier="toResults" id="D3E-Dj-wYw"/>
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="srD-kc-ezN">
@@ -63,7 +64,66 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="190" y="310"/>
+            <point key="canvasLocation" x="104" y="310"/>
+        </scene>
+        <!--Results Controller-->
+        <scene sceneID="H2V-fo-JDA">
+            <objects>
+                <viewController id="bNB-bT-mVf" customClass="ResultsController" customModule="WhatHappened" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPh-uR-Xtj"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQf-BJ-XMm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4pH-Vd-l5c">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1B-Cn-Ddb">
+                                <rect key="frame" x="20" y="188" width="560" height="142"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="L1B-Cn-Ddb" firstAttribute="centerX" secondItem="4pH-Vd-l5c" secondAttribute="centerX" id="LnU-iS-vap"/>
+                            <constraint firstItem="UQf-BJ-XMm" firstAttribute="top" secondItem="L1B-Cn-Ddb" secondAttribute="bottom" constant="270" id="MHx-l4-xBf"/>
+                            <constraint firstItem="L1B-Cn-Ddb" firstAttribute="centerY" secondItem="4pH-Vd-l5c" secondAttribute="centerY" id="QMd-cu-jA0"/>
+                            <constraint firstItem="L1B-Cn-Ddb" firstAttribute="trailing" secondItem="4pH-Vd-l5c" secondAttribute="trailingMargin" id="YOO-GZ-Q3k"/>
+                            <constraint firstItem="L1B-Cn-Ddb" firstAttribute="leading" secondItem="4pH-Vd-l5c" secondAttribute="leadingMargin" id="btp-4h-7t0"/>
+                            <constraint firstItem="L1B-Cn-Ddb" firstAttribute="top" secondItem="bPh-uR-Xtj" secondAttribute="bottom" constant="168" id="iwH-wi-Grk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Ez-P7-1zQ"/>
+                    <connections>
+                        <outlet property="selectedDate" destination="L1B-Cn-Ddb" id="iUs-Un-kEK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQO-tF-ORa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="310"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PtB-jC-1B0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YN9-JW-x6I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kwq-AI-RqA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bNB-bT-mVf" kind="relationship" relationship="rootViewController" id="AaY-rN-vns"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSU-s4-x40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="-466"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AaY-rN-vns"/>
+    </inferredMetricsTieBreakers>
 </document>
