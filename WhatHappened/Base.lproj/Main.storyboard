@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hzb-W9-7nG">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YF-DR-X0f">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YF-DR-X0f">
                                 <rect key="frame" x="20" y="79" width="560" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="h2V-si-dq1"/>
@@ -57,6 +57,7 @@
                             <constraint firstItem="srD-kc-ezN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="p6b-zx-bgD"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vuW-PG-hsB"/>
                     <connections>
                         <outlet property="dateText" destination="9YF-DR-X0f" id="ZN3-kO-FYX"/>
                         <outlet property="myDatePicker" destination="srD-kc-ezN" id="sWj-qK-gEa"/>
@@ -64,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104" y="310"/>
+            <point key="canvasLocation" x="916" y="310"/>
         </scene>
         <!--Results Controller-->
         <scene sceneID="H2V-fo-JDA">
@@ -102,28 +103,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nQO-tF-ORa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824" y="310"/>
+            <point key="canvasLocation" x="1636" y="310"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="PtB-jC-1B0">
+        <scene sceneID="0GE-mk-Ma7">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YN9-JW-x6I" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hzb-W9-7nG" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kwq-AI-RqA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uMD-HK-edP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="bNB-bT-mVf" kind="relationship" relationship="rootViewController" id="AaY-rN-vns"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KEY-IC-cEL"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wSU-s4-x40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p64-ZG-FSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="764" y="-466"/>
+            <point key="canvasLocation" x="104" y="310"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="AaY-rN-vns"/>
-    </inferredMetricsTieBreakers>
 </document>
