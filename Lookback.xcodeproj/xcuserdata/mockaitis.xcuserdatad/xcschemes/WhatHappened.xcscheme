@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "461A56851C7FD09200659322"
-               BuildableName = "WhatHappened.app"
-               BlueprintName = "WhatHappened"
-               ReferencedContainer = "container:WhatHappened.xcodeproj">
+               BuildableName = "Lookback.app"
+               BlueprintName = "Lookback"
+               ReferencedContainer = "container:Lookback.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "461A56991C7FD09200659322"
-               BuildableName = "WhatHappenedTests.xctest"
-               BlueprintName = "WhatHappenedTests"
-               ReferencedContainer = "container:WhatHappened.xcodeproj">
+               BuildableName = "Lookback.xctest"
+               BlueprintName = "LookbackTests"
+               ReferencedContainer = "container:Lookback.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "461A56A41C7FD09200659322"
-               BuildableName = "WhatHappenedUITests.xctest"
-               BlueprintName = "WhatHappenedUITests"
-               ReferencedContainer = "container:WhatHappened.xcodeproj">
+               BuildableName = "Lookback.xctest"
+               BlueprintName = "LookbackUITests"
+               ReferencedContainer = "container:Lookback.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "461A56851C7FD09200659322"
-            BuildableName = "WhatHappened.app"
-            BlueprintName = "WhatHappened"
-            ReferencedContainer = "container:WhatHappened.xcodeproj">
+            BuildableName = "Lookback.app"
+            BlueprintName = "Lookback"
+            ReferencedContainer = "container:Lookback.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "461A56851C7FD09200659322"
-            BuildableName = "WhatHappened.app"
-            BlueprintName = "WhatHappened"
-            ReferencedContainer = "container:WhatHappened.xcodeproj">
+            BuildableName = "Lookback.app"
+            BlueprintName = "Lookback"
+            ReferencedContainer = "container:Lookback.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "461A56851C7FD09200659322"
-            BuildableName = "WhatHappened.app"
-            BlueprintName = "WhatHappened"
-            ReferencedContainer = "container:WhatHappened.xcodeproj">
+            BuildableName = "Lookback.app"
+            BlueprintName = "Lookback"
+            ReferencedContainer = "container:Lookback.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

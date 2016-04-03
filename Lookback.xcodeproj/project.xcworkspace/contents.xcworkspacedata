@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WhatHappened.xcodeproj">
+      location = "self:/Users/mockaitis/Documents/Design 2016/WhatHappened/Lookback.xcodeproj">
    </FileRef>
 </Workspace>

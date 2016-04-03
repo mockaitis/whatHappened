@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		461A56861C7FD09200659322 /* WhatHappened.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatHappened.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461A56861C7FD09200659322 /* Lookback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461A56891C7FD09200659322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		461A568B1C7FD09200659322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		461A568E1C7FD09200659322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		461A56901C7FD09200659322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461A56931C7FD09200659322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		461A56951C7FD09200659322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461A569A1C7FD09200659322 /* WhatHappenedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatHappenedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461A569A1C7FD09200659322 /* Lookback.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lookback.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461A569E1C7FD09200659322 /* WhatHappenedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatHappenedTests.swift; sourceTree = "<group>"; };
 		461A56A01C7FD09200659322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461A56A51C7FD09200659322 /* WhatHappenedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatHappenedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461A56A51C7FD09200659322 /* Lookback.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lookback.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461A56A91C7FD09200659322 /* WhatHappenedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatHappenedUITests.swift; sourceTree = "<group>"; };
 		461A56AB1C7FD09200659322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E26B1A1CAC856D004FBEB9 /* ResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		461A56871C7FD09200659322 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				461A56861C7FD09200659322 /* WhatHappened.app */,
-				461A569A1C7FD09200659322 /* WhatHappenedTests.xctest */,
-				461A56A51C7FD09200659322 /* WhatHappenedUITests.xctest */,
+				461A56861C7FD09200659322 /* Lookback.app */,
+				461A569A1C7FD09200659322 /* Lookback.xctest */,
+				461A56A51C7FD09200659322 /* Lookback.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		461A56851C7FD09200659322 /* WhatHappened */ = {
+		461A56851C7FD09200659322 /* Lookback */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461A56AE1C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappened" */;
+			buildConfigurationList = 461A56AE1C7FD09200659322 /* Build configuration list for PBXNativeTarget "Lookback" */;
 			buildPhases = (
 				461A56821C7FD09200659322 /* Sources */,
 				461A56831C7FD09200659322 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = WhatHappened;
+			name = Lookback;
 			productName = WhatHappened;
-			productReference = 461A56861C7FD09200659322 /* WhatHappened.app */;
+			productReference = 461A56861C7FD09200659322 /* Lookback.app */;
 			productType = "com.apple.product-type.application";
 		};
-		461A56991C7FD09200659322 /* WhatHappenedTests */ = {
+		461A56991C7FD09200659322 /* LookbackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461A56B11C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappenedTests" */;
+			buildConfigurationList = 461A56B11C7FD09200659322 /* Build configuration list for PBXNativeTarget "LookbackTests" */;
 			buildPhases = (
 				461A56961C7FD09200659322 /* Sources */,
 				461A56971C7FD09200659322 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				461A569C1C7FD09200659322 /* PBXTargetDependency */,
 			);
-			name = WhatHappenedTests;
+			name = LookbackTests;
 			productName = WhatHappenedTests;
-			productReference = 461A569A1C7FD09200659322 /* WhatHappenedTests.xctest */;
+			productReference = 461A569A1C7FD09200659322 /* Lookback.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		461A56A41C7FD09200659322 /* WhatHappenedUITests */ = {
+		461A56A41C7FD09200659322 /* LookbackUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461A56B41C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappenedUITests" */;
+			buildConfigurationList = 461A56B41C7FD09200659322 /* Build configuration list for PBXNativeTarget "LookbackUITests" */;
 			buildPhases = (
 				461A56A11C7FD09200659322 /* Sources */,
 				461A56A21C7FD09200659322 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				461A56A71C7FD09200659322 /* PBXTargetDependency */,
 			);
-			name = WhatHappenedUITests;
+			name = LookbackUITests;
 			productName = WhatHappenedUITests;
-			productReference = 461A56A51C7FD09200659322 /* WhatHappenedUITests.xctest */;
+			productReference = 461A56A51C7FD09200659322 /* Lookback.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 461A56811C7FD09200659322 /* Build configuration list for PBXProject "WhatHappened" */;
+			buildConfigurationList = 461A56811C7FD09200659322 /* Build configuration list for PBXProject "Lookback" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				461A56851C7FD09200659322 /* WhatHappened */,
-				461A56991C7FD09200659322 /* WhatHappenedTests */,
-				461A56A41C7FD09200659322 /* WhatHappenedUITests */,
+				461A56851C7FD09200659322 /* Lookback */,
+				461A56991C7FD09200659322 /* LookbackTests */,
+				461A56A41C7FD09200659322 /* LookbackUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		461A569C1C7FD09200659322 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461A56851C7FD09200659322 /* WhatHappened */;
+			target = 461A56851C7FD09200659322 /* Lookback */;
 			targetProxy = 461A569B1C7FD09200659322 /* PBXContainerItemProxy */;
 		};
 		461A56A71C7FD09200659322 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461A56851C7FD09200659322 /* WhatHappened */;
+			target = 461A56851C7FD09200659322 /* Lookback */;
 			targetProxy = 461A56A61C7FD09200659322 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,8 +408,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WhatHappened/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.WhatHappened;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.Lookback;
+				PRODUCT_NAME = Lookback;
 			};
 			name = Debug;
 		};
@@ -419,8 +419,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WhatHappened/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.WhatHappened;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.Lookback;
+				PRODUCT_NAME = Lookback;
 			};
 			name = Release;
 		};
@@ -431,8 +431,8 @@
 				INFOPLIST_FILE = WhatHappenedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.WhatHappenedTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatHappened.app/WhatHappened";
+				PRODUCT_NAME = Lookback;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lookback.app/Lookback";
 			};
 			name = Debug;
 		};
@@ -443,8 +443,8 @@
 				INFOPLIST_FILE = WhatHappenedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.WhatHappenedTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatHappened.app/WhatHappened";
+				PRODUCT_NAME = Lookback;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lookback.app/Lookback";
 			};
 			name = Release;
 		};
@@ -454,7 +454,7 @@
 				INFOPLIST_FILE = WhatHappenedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.WhatHappenedUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lookback;
 				TEST_TARGET_NAME = WhatHappened;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +466,7 @@
 				INFOPLIST_FILE = WhatHappenedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daveMockaitis.WhatHappenedUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lookback;
 				TEST_TARGET_NAME = WhatHappened;
 				USES_XCTRUNNER = YES;
 			};
@@ -475,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		461A56811C7FD09200659322 /* Build configuration list for PBXProject "WhatHappened" */ = {
+		461A56811C7FD09200659322 /* Build configuration list for PBXProject "Lookback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461A56AC1C7FD09200659322 /* Debug */,
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461A56AE1C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappened" */ = {
+		461A56AE1C7FD09200659322 /* Build configuration list for PBXNativeTarget "Lookback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461A56AF1C7FD09200659322 /* Debug */,
@@ -493,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461A56B11C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappenedTests" */ = {
+		461A56B11C7FD09200659322 /* Build configuration list for PBXNativeTarget "LookbackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461A56B21C7FD09200659322 /* Debug */,
@@ -502,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461A56B41C7FD09200659322 /* Build configuration list for PBXNativeTarget "WhatHappenedUITests" */ = {
+		461A56B41C7FD09200659322 /* Build configuration list for PBXNativeTarget "LookbackUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461A56B51C7FD09200659322 /* Debug */,
